@@ -4,8 +4,10 @@ import datetime as dt
 
 os.system('cls')
 
-start_time = dt.datetime.now()
 
+
+start = input('pressione enter para começar!')
+start_time = dt.datetime.now()
 chars = input ('digite o mais rapido que puder! ')
 end_time =  dt.datetime.now()
 
